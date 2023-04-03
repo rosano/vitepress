@@ -23,6 +23,12 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/rosano/docs' }
-    ]
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/rosano/docs/edit/master/:path',
+      text: 'Edit this page on GitHub',
+    },
+        
   }
 })
