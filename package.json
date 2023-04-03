@@ -1,6 +1,9 @@
 {
   "name": "roco-docs",
   "devDependencies": {
+    "@mermaid-js/mermaid-mindmap": "^9.3.0",
+    "mermaid": "9.1.7",
+    "vitepress-plugin-mermaid": "latest",
     "vitepress": "latest"
   },
   "scripts": {

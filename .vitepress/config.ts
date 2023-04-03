@@ -1,10 +1,14 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
+import { withMermaid } from "vitepress-plugin-mermaid";
+
+export default withMermaid(
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+defineConfig({
   title: "Rosanoverse",
   description: "Mapping my universe",
   themeConfig: {
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -30,5 +34,12 @@ export default defineConfig({
       text: 'Edit this page on GitHub',
     },
         
-  }
-})
+  },
+
+  // optionally, you can pass MermaidConfig
+  mermaid: {
+    // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
+  },
+}),
+
+);
