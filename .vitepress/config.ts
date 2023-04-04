@@ -7,9 +7,8 @@ export default withMermaid(
   defineConfig({
     title: "Rosanoverse",
     description: "Mapping my universe",
+    base: '/vitepress/',
     themeConfig: {
-      
-      base: '/vitepress/',
 
       // https://vitepress.dev/reference/default-theme-config
       nav: [
