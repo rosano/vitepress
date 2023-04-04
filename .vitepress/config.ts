@@ -8,6 +8,8 @@ export default withMermaid(
     title: "Rosanoverse",
     description: "Mapping my universe",
     themeConfig: {
+      
+      base: '/vitepress/',
 
       // https://vitepress.dev/reference/default-theme-config
       nav: [
